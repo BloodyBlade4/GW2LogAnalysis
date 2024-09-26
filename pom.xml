@@ -3,28 +3,15 @@
   <groupId>LogAnalysis</groupId>
   <artifactId>LogAnalysis</artifactId>
   <dependencies>
+	 <!-- https://mvnrepository.com/artifact/com.github.lgooddatepicker/LGoodDatePicker -->
+	<dependency>
+	    <groupId>com.github.lgooddatepicker</groupId>
+	    <artifactId>LGoodDatePicker</artifactId>
+	    <version>11.2.1</version>
+	</dependency>
 
-    <dependency>
-        <groupId>org.slf4j</groupId>
-        <artifactId>slf4j-api</artifactId>
-        <version>1.7.0</version>
-        <scope>runtime</scope>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-jdk14 -->
-<dependency>
-    <groupId>org.slf4j</groupId>
-    <artifactId>slf4j-jdk14</artifactId>
-    <version>1.7.36</version>
-    <scope>test</scope>
-</dependency>
-
-
-    <dependency>
-        <groupId>org.slf4j</groupId>
-        <artifactId>slf4j-log4j12</artifactId>
-        <version>1.7.0</version>
-        <scope>runtime</scope>
-    </dependency>
+	  
+	<!-- LOG4J, slf4j-impl is required by apache -->
     <dependency>
         <groupId>log4j</groupId>
         <artifactId>log4j</artifactId>
@@ -37,12 +24,6 @@
 	    <version>2.20.0</version>
 	    <scope>test</scope>
 	</dependency>
-	<dependency>
-	    <groupId>org.apache.logging.log4j</groupId>
-	    <artifactId>log4j-to-slf4j</artifactId>
-	    <version>2.8.2</version>
-	</dependency>
-	  
 	  
 	<!-- APACHE POI microsoft document parsing-->
 	<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
@@ -125,46 +106,19 @@
 	    <version>2.9.7</version>
 	</dependency>
 
-<!-- https://mvnrepository.com/artifact/org.codehaus.woodstox/stax2-api -->
-<dependency>
-    <groupId>org.codehaus.woodstox</groupId>
-    <artifactId>stax2-api</artifactId>
-    <version>3.1.4</version>
-</dependency>
-	
-	<!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
-<dependency>
-    <groupId>com.googlecode.json-simple</groupId>
-    <artifactId>json-simple</artifactId>
-    <version>1.1.1</version>
-</dependency>
-
-	<!-- https://mvnrepository.com/artifact/org.jdatepicker/jdatepicker -->
-<dependency>
-    <groupId>org.jdatepicker</groupId>
-    <artifactId>jdatepicker</artifactId>
-    <version>1.3.4</version>
-</dependency>
-
-<!--Do you need these?-->
-<!-- https://mvnrepository.com/artifact/com.fasterxml.woodstox/woodstox-core 
-<dependency>
-    <groupId>com.fasterxml.woodstox</groupId>
-    <artifactId>woodstox-core</artifactId>
-    <version>5.0.3</version>
-</dependency>-->
-
-	<!--
-	https://mvnrepository.com/artifact/org.slf4j/slf4j-api 
-<dependency>
-    <groupId>org.slf4j</groupId>
-    <artifactId>slf4j-api</artifactId>
-    <version>1.7.36</version>
-</dependency>-->
-
-
-
-
+	<!-- https://mvnrepository.com/artifact/org.codehaus.woodstox/stax2-api -->
+	<dependency>
+	    <groupId>org.codehaus.woodstox</groupId>
+	    <artifactId>stax2-api</artifactId>
+	    <version>3.1.4</version>
+	</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+	<dependency>
+	    <groupId>com.googlecode.json-simple</groupId>
+	    <artifactId>json-simple</artifactId>
+	    <version>1.1.1</version>
+	</dependency>
   </dependencies>
   <version>0.0.1-SNAPSHOT</version>
   <build>

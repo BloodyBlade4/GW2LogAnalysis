@@ -21,11 +21,11 @@ Many filtering features have already been added, more will likely come as differ
 ### Menu GUI
 The menu for the program, as of v0.9:
 
-![Menu image](./resources/LogAnalysisMenu.png)
+![Menu image](./src/main/resources/LogAnalysisMenu.png)
 
 ### Example
 The Excel document output will look similar to the following image: 
-![Example Excel document](./resources/LogAnalysisExcelexample.png)
+![Example Excel document](./src/main/resources/LogAnalysisExcelexample.png)
   
 
 ## Use/Instructions
